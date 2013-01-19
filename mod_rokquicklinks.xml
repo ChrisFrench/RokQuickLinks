@@ -21,7 +21,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic" addfieldpath="/administrator/modules/mod_rokquicklinks/fields">
-				<field name="iconpath" type="text" label="Icon Path" default="/administrator/modules/mod_rokquicklinks/tmpl/icons/" description="Path should be an absolute directory from the root of your Joomla installation and should end in a /" />
+				<field name="iconpath" type="text" label="Icon Path" default="/administrator/templates/bluestork/images/header/" description="Path should be an absolute directory from the root of your Joomla installation and should end in a /" />
 				<field name="quickfields" type="rokquickfields" label="" default="[{'icon':'newspaper_add.png','target':'self','link':'index.php?option=com_content&amp;task=article.edit','title':'Add Article'},{'icon':'images.png','target':'self','link':'index.php?option=com_media','title':'Media Manager'},{'icon':'drawer_open.png','target':'self','link':'index.php?option=com_categories&amp;section=com_content','title':'Category Manager'},{'icon':'cog.png','target':'self','link':'index.php?option=com_config','title':'Configuration'},{'icon':'brick.png','target':'self','link':'index.php?option=com_installer','title':'Install New'},{'icon':'color_management.png','target':'self','link':'index.php?option=com_templates','title':'Templates'}]" />
 			</fieldset>
 		</fields>
